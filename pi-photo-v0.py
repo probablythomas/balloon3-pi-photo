@@ -24,7 +24,7 @@ if not os.path.isdir(output_path):
 
 
 # photos will be captured in a sorta-never ending loop
-for i in range(1,2000):
+for i in range(1,4000):
    with picamera.PiCamera() as camera:
       camera.resolution = (3280,2462)
       camera.start_preview()
